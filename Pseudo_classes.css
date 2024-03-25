@@ -1,0 +1,34 @@
+/* hover ,active,link, */
+  a:link{
+    color: rgb(26, 31, 26);
+ }
+ a:visited{
+    color: rgb(4, 4, 5);
+ }
+ a:hover{
+    color: green;
+ }
+ 
+ a:active{
+    color: rgb(34, 34, 221);
+ }
+
+/* now test ,=more pseudo classes */
+ input:focus{
+    padding: 8px;
+    text-shadow: ;
+    border:2px solid red;
+    outline: none;
+    background-color: lightgreen
+ }
+ input:required{
+    color: rgb(51, 153, 66);
+ }
+
+
+p:last-of-type{
+    color: rgb(255, 0, 247);
+}
+p:nth-child(2){
+   background-color: gray;
+}

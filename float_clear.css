@@ -1,0 +1,33 @@
+.parent {
+    width: auto;
+    border: 10px solid #f14242;
+    text-align:center;
+    margin-left: 5px;
+  }
+  .arjit {
+    width: 25%;
+    float: left;
+  
+    background-color: lightblue;
+  
+    padding: 40px;
+  }
+  .sonu {
+    width: 25%;
+    float: left;
+  
+    background-color: rgb(15, 117, 151);
+  
+    padding: 40px;
+  }
+  .jubin {
+    width: 25%;
+    float: left;
+  
+    background-color: rgb(75, 158, 186);
+  
+    padding: 40px;
+  }
+  .clear-fix {
+    clear: both;
+  }

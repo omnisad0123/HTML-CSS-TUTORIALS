@@ -1,0 +1,53 @@
+/* .box{
+    width: 100px;
+    background-color: blue;
+   height: 100px;
+   animation-name: change-color;
+   animation-name:change-widht;
+   animation-duration: 3s;
+   animation-fill-mode: forwards;
+}
+@keyframes change-widht{
+    from{
+        width: 100px;
+    } 
+    to {
+        width: 1000px;
+    }
+}
+
+@keyframes change-color{
+    from{
+        background: blue;
+    } 
+    to{
+       background: orange;
+    }
+} */
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: move;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-in-out;
+  }
+  
+  @keyframes move {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(200px);
+      background-color: blue;
+    }
+    100% {
+      transform: translateX(0);
+      background-color: red;
+    }
+  }
+  

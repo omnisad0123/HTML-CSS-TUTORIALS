@@ -1,0 +1,9 @@
+h1{
+    border: 40px solid red;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    /* simply we can for equaly padding  */
+    padding: 40px;
+    padding: 40px 50px 60px 30px;
+    
+}

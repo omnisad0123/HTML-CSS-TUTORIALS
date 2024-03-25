@@ -1,0 +1,21 @@
+h1{
+    background: lightskyblue;
+    border: 40px 0px;
+    text-align: center;
+    padding: 15px 0px;
+}
+section.about-me ,section.about-khushboo{
+    border: 2px solid rgb(198, 156, 156);
+    padding: 10px 0px;
+    margin-bottom: 15px;
+}
+.container{
+    width: 800px;
+    line-height: normal;
+    margin: 0px auto;
+    /* border: 2px solid rebeccapurple; */
+}
+/* section h3{
+    background-color: lightcyan;
+    text-align: center;
+} */

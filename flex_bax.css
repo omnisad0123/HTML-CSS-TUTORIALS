@@ -1,0 +1,49 @@
+.box{
+    border:10px solid rgb(128, 79, 0);
+   background-color: rgb(176, 195, 211);
+    flex-direction: row;
+    display: flex;
+    /* flex-grow: inherit; */
+    /* flex-wrap: wrap-reverse; */
+    /* height: 500px; */
+    /* justify-content: center; */
+    /* justify-content:   space-between; */
+       /* height: 500px;*/
+       
+     align-items:flex-start; 
+    /* justify-content: space-between;
+    align-items: center; */ 
+    
+}
+
+.Box1{
+   border:  1px solid black;
+    background-color: lightblue;
+    
+    
+    
+
+}
+.Box2{
+   border:  1px solid black;
+    background-color: rgb(25, 89, 110);
+      
+    
+      
+
+}
+.Box3{
+   border:  1px solid black;
+    background-color: rgb(74, 87, 16);
+    
+    
+
+}
+.Box4{
+   border:  1px solid black;
+    background-color: rgb(230, 173, 223);
+}
+.Box5{
+   border:  1px solid black;
+    background-color: rgb(50, 157, 193);
+}

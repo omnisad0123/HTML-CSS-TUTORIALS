@@ -1,0 +1,15 @@
+.btn {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    tar
+    transition-property: background-color, color;
+    transition-duration: 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: red;
+    color: white;
+  }
+  
